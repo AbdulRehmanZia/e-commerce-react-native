@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .cursive-s {
+      fill: none;
+      stroke-width: 4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 150;
+      stroke-dashoffset: 150;
+    }
+    .cursive-s-1 { stroke: #FF6B6B; animation: draw-1 15s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    .cursive-s-2 { stroke: #FFA07A; animation: draw-2 15s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    .cursive-s-3 { stroke: #45B7D1; animation: draw-3 15s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    .cursive-s-4 { stroke: #4ECDC4; animation: draw-4 15s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    .cursive-s-5 { stroke: #181825; animation: draw-5 15s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    .cursive-s-6 { stroke: #45475a; animation: draw-6 15s cubic-bezier(0.7, 0, 0.3, 1) infinite; }
+    @keyframes draw-1 {
+      0%, 16.67%, 83.33%, 100% { stroke-dashoffset: 150; }
+      6.25%, 10.42% { stroke-dashoffset: 0; }
+      89.58%, 93.75% { stroke-dashoffset: 300; }
+    }
+    @keyframes draw-2 {
+      0%, 16.67%, 83.33%, 100% { stroke-dashoffset: 150; }
+      6.25%, 10.42% { stroke-dashoffset: 0; }
+      89.58%, 93.75% { stroke-dashoffset: 300; }
+    }
+    @keyframes draw-3 {
+      0%, 16.67%, 33.33%, 66.67%, 83.33%, 100% { stroke-dashoffset: 150; }
+      22.92%, 27.08% { stroke-dashoffset: 0; }
+      72.92%, 77.08% { stroke-dashoffset: 300; }
+    }
+    @keyframes draw-4 {
+      0%, 16.67%, 33.33%, 66.67%, 83.33%, 100% { stroke-dashoffset: 150; }
+      22.92%, 27.08% { stroke-dashoffset: 0; }
+      72.92%, 77.08% { stroke-dashoffset: 300; }
+    }
+    @keyframes draw-5 {
+      0%, 33.33%, 66.67%, 100% { stroke-dashoffset: 150; }
+      39.58%, 43.75% { stroke-dashoffset: 0; }
+      56.25%, 60.42% { stroke-dashoffset: 300; }
+    }
+    @keyframes draw-6 {
+      0%, 33.33%, 66.67%, 100% { stroke-dashoffset: 150; }
+      39.58%, 43.75% { stroke-dashoffset: 0; }
+      56.25%, 60.42% { stroke-dashoffset: 300; }
+    }
+  </style>
+  <path class="cursive-s cursive-s-1" d="M30 70 C 45 70, 50 65, 50 50 S 55 30, 70 30" />
+  <path class="cursive-s cursive-s-2" d="M70 30 C 55 30, 50 35, 50 50 S 45 70, 30 70" />
+  <path class="cursive-s cursive-s-3" d="M30 70 C 45 70, 50 65, 50 50 S 55 30, 70 30" />
+  <path class="cursive-s cursive-s-4" d="M70 30 C 55 30, 50 35, 50 50 S 45 70, 30 70" />
+  <path class="cursive-s cursive-s-5" d="M30 70 C 45 70, 50 65, 50 50 S 55 30, 70 30" />
+  <path class="cursive-s cursive-s-6" d="M70 30 C 55 30, 50 35, 50 50 S 45 70, 30 70" />
+</svg>

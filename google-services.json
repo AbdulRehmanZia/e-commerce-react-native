@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "234287144943",
+    "project_id": "sahyan-shop",
+    "storage_bucket": "sahyan-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234287144943:android:9c62613ebc6855f81da01a",
+        "android_client_info": {
+          "package_name": "com.sahyaan.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234287144943-8pdogte8q51k68cuvm92ends25ajm5sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahyaan.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "234287144943-9r91cd8lis580ncbvck1u7al1qc2fbv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahyaan.app",
+            "certificate_hash": "ae045bda346e3d6179d41867f1c39a8dc736d03e"
+          }
+        },
+        {
+          "client_id": "234287144943-rd2cg60s6tussgtur966tgobou7ebgs1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sahyaan.app",
+            "certificate_hash": "8fec27ea3008dcf37c477b80395b231d4fe1387a"
+          }
+        },
+        {
+          "client_id": "234287144943-kf0979nu4qlssdtvb9u0ag6kstnufv7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxIBOcvrejl6C-urocRu-I_TgrwfEy5iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234287144943-kf0979nu4qlssdtvb9u0ag6kstnufv7o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "234287144943-e0liqskk5k7kg3sed21ot324o91vcqjg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sahyaan.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

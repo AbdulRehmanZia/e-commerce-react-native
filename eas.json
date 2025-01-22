@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 7.8.3"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview"
+    },
+    "preview2": {
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "AIzaSyDBPUIMmakIuglupxWDTAWk86UUkxZtTus",
+        "EXPO_PUBLIC_AUTH_DOMAIN": "sahyan-shop.firebaseapp.com",
+        "EXPO_PUBLIC_PROJECT_ID": "sahyan-shop",
+        "EXPO_PUBLIC_STORAGE_BUCKET": "sahyan-shop.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_ID": "234287144943",
+        "EXPO_PUBLIC_APP_ID": "1:234287144943:web:1dcb0a45e1ba57711da01a"
+      },
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "production": {
+      "channel": "production",
+
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "AIzaSyDBPUIMmakIuglupxWDTAWk86UUkxZtTus",
+        "EXPO_PUBLIC_AUTH_DOMAIN": "sahyan-shop.firebaseapp.com",
+        "EXPO_PUBLIC_PROJECT_ID": "sahyan-shop",
+        "EXPO_PUBLIC_STORAGE_BUCKET": "sahyan-shop.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_ID": "234287144943",
+        "EXPO_PUBLIC_APP_ID": "1:234287144943:web:1dcb0a45e1ba57711da01a"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
